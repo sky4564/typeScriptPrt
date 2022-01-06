@@ -1,0 +1,16 @@
+{
+  "name": "arrowfunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "prestart":"npx tsc",
+    "name":"bahavior"
+},  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}

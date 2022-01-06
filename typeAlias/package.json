@@ -1,0 +1,24 @@
+{
+  "name": "prt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky4564/prt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sky4564/prt/issues"
+  },
+  "homepage": "https://github.com/sky4564/prt#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
