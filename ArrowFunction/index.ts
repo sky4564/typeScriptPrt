@@ -8,6 +8,7 @@ function action(){
 }
 
 var action2 = function(){
+    
     console.log('action2 work')
 }
 

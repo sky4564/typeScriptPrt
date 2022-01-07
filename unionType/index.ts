@@ -64,9 +64,52 @@ let quizFunction = (x:string | number) : void => {
 quizFunction(1)
 quizFunction('good text')
 
-console.log('=========================Go To <T> </T> ==============================')
+console.log('=========================숙제==============================')
+console.log("Q1")
 
-//<T> = 제네릭 타입 변수
+let 숙제1
+:{
+    user:string,
+    age:undefined,
+    age2:number|undefined,
+    married:boolean,
+    
+}
+=
+{
+    user:  'KIM BYOUNG MIN',
+    age:  undefined,
+    age2: 23,
+    married:false,
+}
+
+
+console.log(숙제1)
+
+
+
+console.log('=========================숙제==============================')
+console.log("Q2")
+let 학교 
+:{
+    score : (number | boolean)[],
+    teacher : string,
+    friend : string[]
+}
+= 
+{
+    score : [100,89,77],
+    teacher :'tom',
+    friend : ['john']
+}
+학교.score[4] = false;
+학교.friend = ['lee', 학교.teacher]
+
+console.log(학교)
+
+
+
+
 
 
 

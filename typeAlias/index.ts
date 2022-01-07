@@ -56,7 +56,8 @@ let obj :vip = {
     name : "tom",
     age : 23,
     
-    //함수 자체를 오브젝트에 추가한것.  alias 설정이 어렵다.
+    //함수 자체를 오브젝트에 추가한것.  alias 설정이 어렵다.  
+    //- > 어렵진 않음 다만 하나하나 다해줘야하는게 귀찮음
     objFunc(){
         console.log("obj work")
     },

@@ -40,8 +40,12 @@ console.log(act('보'))
 
 
 var 자료 = {
-    name : 'kim'
+    name  : 'kim' 
 }as const
+
+//as const 의 효과
+// 타입을 object의 value 로 바꿔줍니다. (타입을 'kim'으로 바꿔줍니다.)
+//object안에 있는 모든 속성을 readonly 로 바꿔줍니다. (변경하면 에러나게)
 
 
 
@@ -55,3 +59,7 @@ console.log(자료.name)
 
 //작동 x as const 써서 작동시켜야함  //함수에 넣을때 파라미터가 리터럴 'kim'을 받는데 as const를 사용 안하면 자료.name으로 그대로 받기때문 토씨하나라도 틀리게됨 ! 
 console.log(내함수(자료.name))
+
+
+console.log(내함수(자료.name as 'kim'))
+

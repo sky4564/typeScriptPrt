@@ -25,10 +25,14 @@ testFuncAR();
 console.log('=========================quiz==============================');
 let quizFunction = (x) => {
     console.log('this is quizFunc');
-    // x+1 은 x가 number 일때만 number + number 로 유효한데
     //narrowing을 하지 않으면 x 는 union type 이기 떄문에 작동하지않는다.
+    // 엄격하게 잡는것이 typeScript ! 
     //console.log(x+1)
     // 타입별 처리 = narrowing
+    // 종류는 뭐가있나 !
+    // typeof 변수
+    // 속성명 in 오브젝트자료
+    // 인스턴스 instanceof 부모
     if (typeof (x) == 'number') {
         console.log(x + 1);
     }
@@ -38,4 +42,23 @@ let quizFunction = (x) => {
 };
 quizFunction(1);
 quizFunction('good text');
+console.log('=========================숙제==============================');
+console.log("Q1");
+let 숙제1 = {
+    user: 'KIM BYOUNG MIN',
+    age: undefined,
+    age2: 23,
+    married: false,
+};
+console.log(숙제1);
+console.log('=========================숙제==============================');
+console.log("Q2");
+let 학교 = {
+    score: [100, 89, 77],
+    teacher: 'tom',
+    friend: ['john']
+};
+학교.score[4] = false;
+학교.friend = ['lee', 학교.teacher];
+console.log(학교);
 //# sourceMappingURL=index.js.map
